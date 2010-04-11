@@ -1,0 +1,6 @@
+Transaction Date,Account ID,Description,Amount
+"04/01/2010",91,"Selling Bonus","1050.75"
+"04/02/2010",22,"Savana Grill","-30.25"
+"04/02/2010",,"Tip","-5.00"
+"04/03/2010",41,"Oil Change","-65.00"
+Summary = Count: 4, Sum: 950.50
