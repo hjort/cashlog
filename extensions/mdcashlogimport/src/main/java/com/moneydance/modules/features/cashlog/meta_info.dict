@@ -1,8 +1,8 @@
 {
-  "vendor" = "Your Name Here"
+  "vendor" = "Cash Log"
   "module_build" = "1"
-  "vendor.url" = "http://your.url.here/"
-  "module_name" = "My Extension"
-  "module_desc" = "<html><body><title>My Extension Cash Log</title><p>An HTML description of your extension goes here.</p></body></html>"
-  "desc" = "A text description of your extension goes here."
+  "vendor.url" = "http://www.poitec.com/cashlog/"
+  "module_name" = "Cash Log Importer"
+  "module_desc" = "<html><body><title>Cash Log</title><p>The fastest, easiest, simplest way to keep track of your pocket cash!</p></body></html>"
+  "desc" = "An extension for Moneydance intended to import transactions from Cash Log application."
 }
