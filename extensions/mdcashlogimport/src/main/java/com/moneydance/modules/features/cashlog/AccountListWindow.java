@@ -91,6 +91,8 @@ public class AccountListWindow extends JFrame implements ActionListener {
 			acctStr.append(acct.getAccountNum());
 			acctStr.append(": ");
 			acctStr.append(acct.getFullAccountName());
+			acctStr.append(": ");
+			acctStr.append(acct.getBalance());
 			acctStr.append("\n");
 			addSubAccounts(acct, acctStr);
 		}
@@ -159,9 +161,9 @@ public class AccountListWindow extends JFrame implements ActionListener {
 		*/
 		
 		createTransaction("04/15/2010", 91, "Selling Bonus at " + new Date(), 1050.75, null);
-		createTransaction("04/16/2010", 22, "Savana Grill at " + new Date(), -30.25, null);
+		createTransaction("04/16/2010", 54, "Savana Grill at " + new Date(), -30.25, null);
 		createTransaction("04/16/2010", -1, "Tip at " + new Date(), -5.00, null);
-		createTransaction("04/17/2010", 41, "Oil Change at " + new Date(), -65.00, null);
+		createTransaction("04/17/2010", 40, "Oil Change at " + new Date(), -65.00, null);
 		
 		RootAccount rootAccount = extension.getUnprotectedContext().getRootAccount();
 		rootAccount.refreshAccountBalances();
@@ -205,23 +207,28 @@ public class AccountListWindow extends JFrame implements ActionListener {
 		Account internalAccount = (accountId >= 0 ? rootAccount.getAccountById(accountId) : rootAccount);
 		
 		try {
-			long amountInPennies = (long) (amount * 100f);
 			
+			long amountInPennies = (long) (amount * 100);
 			int txDate = dateFormat.parseInt(date);
-
-			ParentTxn parentTxn = new ParentTxn(txDate, txDate, txDate,
-					checkNumber, internalAccount, payeeName, "memo", -1,
-					AbstractTxn.STATUS_UNRECONCILED);
 			
-			SplitTxn splitTxn = new SplitTxn(parentTxn, amountInPennies,
-					-amountInPennies, 1d, internalAccount, payeeName, -1,
-					AbstractTxn.STATUS_UNRECONCILED);
+			if (amountInPennies < 0) amountInPennies = -amountInPennies;
 			
+			System.out.println("internalAccount.balanceIsNegated() = " + internalAccount.balanceIsNegated());
+			System.out.println("amountInPennies = " + amountInPennies);
+			
+			ParentTxn parentTxn = new ParentTxn(txDate, txDate, txDate, checkNumber,
+					internalAccount, payeeName, "memo: " + payeeName, -1, AbstractTxn.STATUS_UNRECONCILED);
+			SplitTxn splitTxn = new SplitTxn(parentTxn, amountInPennies, amountInPennies, 1.0,
+					internalAccount, parentTxn.getDescription(), -1, AbstractTxn.STATUS_UNRECONCILED);
 			parentTxn.addSplit(splitTxn);
-
+			
+			System.out.println("parentTxn = " + parentTxn);
+			System.out.println("splitTxn = " + splitTxn);
+			
 			rootAccount.getTransactionSet().addNewTxn(parentTxn);
 			
-//			rootAccount.accountBalanceChanged(internalAccount);
+			rootAccount.accountBalanceChanged(internalAccount);
+			
 //			rootAccount.accountModified(internalAccount);
 //			rootAccount.refreshAccountBalances();
 			
