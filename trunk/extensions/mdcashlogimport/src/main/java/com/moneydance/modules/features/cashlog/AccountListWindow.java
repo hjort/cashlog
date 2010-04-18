@@ -152,56 +152,24 @@ public class AccountListWindow extends JFrame implements ActionListener {
 	private void importTransactions() {
 		
 		/*
-		Transaction Date,Account ID,Description,Amount
-		"04/01/2010",91,"Selling Bonus","1050.75"
-		"04/02/2010",22,"Savana Grill","-30.25"
-		"04/02/2010",,"Tip","-5.00"
-		"04/03/2010",41,"Oil Change","-65.00"
+		ID,Transaction Date,Account ID,Description,Amount
+		1,"04/01/2010",91,"Selling Bonus","1050.75"
+		2,"04/02/2010",22,"Savana Grill","-30.25"
+		3,"04/02/2010",,"Tip","-5.00"
+		4,"04/03/2010",41,"Oil Change","-65.00"
 		Summary = Count: 4, Sum: 950.50
 		*/
 		
-		createTransaction("04/15/2010", 91, "Selling Bonus at " + new Date(), 1050.75, null);
-		createTransaction("04/16/2010", 54, "Savana Grill at " + new Date(), -30.25, null);
-		createTransaction("04/16/2010", -1, "Tip at " + new Date(), -5.00, null);
-		createTransaction("04/17/2010", 40, "Oil Change at " + new Date(), -65.00, null);
+		createTransaction(1, "04/15/2010", 91, "Selling Bonus at " + new Date(), 1050.75);
+		createTransaction(2, "04/16/2010", 54, "Savana Grill at " + new Date(), -30.25);
+		createTransaction(3, "04/16/2010", -1, "Tip at " + new Date(), -5.00);
+		createTransaction(4, "04/17/2010", 40, "Oil Change at " + new Date(), -65.00);
 		
 		RootAccount rootAccount = extension.getUnprotectedContext().getRootAccount();
 		rootAccount.refreshAccountBalances();
-		
-		/*
-		RootAccount root = extension.getUnprotectedContext().getRootAccount();
-
-		Account acc;
-		OnlineTxnList list;
-		OnlineTxn tx;
-		
-		acc = root.getAccountById(91);
-		list = acc.getDownloadedTxns();
-		
-		int txDate = dateFormat.parseInt("04/17/2010");
-
-		tx = list.newTxn();
-		tx.setAmount(105075);
-		tx.setTotalAmount(105075);
-		tx.setMemo("Selling Bonus " + System.currentTimeMillis());
-		tx.setFITxnId(txDate + ":" + System.currentTimeMillis());
-		tx.setDatePostedInt(txDate);
-		tx.setDateInitiatedInt(txDate);
-		tx.setDateAvailableInt(txDate);
-		tx.setProtocolType(OnlineTxn.PROTO_TYPE_OFX);
-
-		list.addNewTxn(tx);
-
-		acc.downloadedTxnsUpdated();
-		root.refreshAccountBalances();
-		
-		System.err.println("acc: " + acc);
-		System.err.println("list: " + list);
-		System.err.println("tx: " + tx);
-		*/
 	}
 	
-	private void createTransaction(String date, int accountId, String payeeName, double amount, String checkNumber) {
+	private void createTransaction(int externalID, String date, int accountId, String payeeName, double amount) {
 		
 		System.out.println();
 		
@@ -217,15 +185,17 @@ public class AccountListWindow extends JFrame implements ActionListener {
 			long amountInPennies = (long) (-1 * amount * 100);
 			int txDate = dateFormat.parseInt(date);
 			
-			//if (amountInPennies < 0) amountInPennies = -amountInPennies;
-			
 			System.out.println("destinAccount.balanceIsNegated() = " + destinAccount.balanceIsNegated());
 			System.out.println("amountInPennies = " + amountInPennies);
 			
-			ParentTxn parentTxn = new ParentTxn(txDate, txDate, txDate, checkNumber,
-					sourceAccount, payeeName, "memo: " + payeeName, -1, AbstractTxn.STATUS_UNRECONCILED);
+			ParentTxn parentTxn = new ParentTxn(txDate, txDate, txDate, "",
+					sourceAccount, payeeName, "Cash Log", -1, AbstractTxn.STATUS_UNRECONCILED);
+			
 			SplitTxn splitTxn = new SplitTxn(parentTxn, amountInPennies, amountInPennies, 1.0,
 					destinAccount, parentTxn.getDescription(), -1, AbstractTxn.STATUS_UNRECONCILED);
+			
+			parentTxn.setTag("source", "Cash Log");
+			parentTxn.setFiTxnId(99, String.valueOf(externalID));
 			parentTxn.addSplit(splitTxn);
 			
 			System.out.println("parentTxn = " + parentTxn);
@@ -233,10 +203,7 @@ public class AccountListWindow extends JFrame implements ActionListener {
 			
 			rootAccount.getTransactionSet().addNewTxn(parentTxn);
 			
-			rootAccount.accountBalanceChanged(destinAccount);
-			
-//			rootAccount.accountModified(internalAccount);
-//			rootAccount.refreshAccountBalances();
+//			rootAccount.accountBalanceChanged(destinAccount);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
