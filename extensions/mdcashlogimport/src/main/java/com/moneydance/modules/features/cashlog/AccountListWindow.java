@@ -203,23 +203,29 @@ public class AccountListWindow extends JFrame implements ActionListener {
 	
 	private void createTransaction(String date, int accountId, String payeeName, double amount, String checkNumber) {
 		
+		System.out.println();
+		
 		RootAccount rootAccount = extension.getUnprotectedContext().getRootAccount();
-		Account internalAccount = (accountId >= 0 ? rootAccount.getAccountById(accountId) : rootAccount);
+		Account sourceAccount = (amount < 0 ? rootAccount.getAccountById(1) : rootAccount);
+		Account destinAccount = (accountId >= 0 ? rootAccount.getAccountById(accountId) : rootAccount);
+		
+		System.out.println("source = " + sourceAccount.getAccountNum() + ": " + sourceAccount.getAccountName());
+		System.out.println("destin = " + destinAccount.getAccountNum() + ": " + destinAccount.getAccountName());
 		
 		try {
 			
-			long amountInPennies = (long) (amount * 100);
+			long amountInPennies = (long) (-1 * amount * 100);
 			int txDate = dateFormat.parseInt(date);
 			
-			if (amountInPennies < 0) amountInPennies = -amountInPennies;
+			//if (amountInPennies < 0) amountInPennies = -amountInPennies;
 			
-			System.out.println("internalAccount.balanceIsNegated() = " + internalAccount.balanceIsNegated());
+			System.out.println("destinAccount.balanceIsNegated() = " + destinAccount.balanceIsNegated());
 			System.out.println("amountInPennies = " + amountInPennies);
 			
 			ParentTxn parentTxn = new ParentTxn(txDate, txDate, txDate, checkNumber,
-					internalAccount, payeeName, "memo: " + payeeName, -1, AbstractTxn.STATUS_UNRECONCILED);
+					sourceAccount, payeeName, "memo: " + payeeName, -1, AbstractTxn.STATUS_UNRECONCILED);
 			SplitTxn splitTxn = new SplitTxn(parentTxn, amountInPennies, amountInPennies, 1.0,
-					internalAccount, parentTxn.getDescription(), -1, AbstractTxn.STATUS_UNRECONCILED);
+					destinAccount, parentTxn.getDescription(), -1, AbstractTxn.STATUS_UNRECONCILED);
 			parentTxn.addSplit(splitTxn);
 			
 			System.out.println("parentTxn = " + parentTxn);
@@ -227,7 +233,7 @@ public class AccountListWindow extends JFrame implements ActionListener {
 			
 			rootAccount.getTransactionSet().addNewTxn(parentTxn);
 			
-			rootAccount.accountBalanceChanged(internalAccount);
+			rootAccount.accountBalanceChanged(destinAccount);
 			
 //			rootAccount.accountModified(internalAccount);
 //			rootAccount.refreshAccountBalances();
@@ -238,6 +244,4 @@ public class AccountListWindow extends JFrame implements ActionListener {
 		}
 	}
 
-//	void importTx(int accId, )
-	
 }
