@@ -49,6 +49,8 @@ http://jakarta.apache.org/ant/index.html
 			<arg line="${dist}/cashlog.mxt" />
 		</java>
 		<move file="./s-cashlog.mxt" tofile="${dist}/cashlog.mxt" />
+		
+		<copy file="${dist}/cashlog.mxt" todir="/home/rodrigo/.moneydance/fmodules/" overwrite="true" />
 	</target>
 
 	<target name="genkeys">

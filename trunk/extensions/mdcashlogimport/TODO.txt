@@ -1,0 +1,8 @@
+[md-dev] Debugging
+http://moneydance.com/pipermail/moneydance-dev/2009-August/000223.html
+
+[md-dev] creating downloaded transactions
+http://moneydance.com/pipermail/moneydance-dev/2009-February/000171.html
+
+[md-dev] Programmatically creating transactions
+http://moneydance.com/pipermail/moneydance-dev/2006-May/000045.html
