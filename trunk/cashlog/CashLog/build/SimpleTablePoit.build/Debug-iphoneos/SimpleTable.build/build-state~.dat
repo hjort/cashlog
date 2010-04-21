@@ -1,0 +1,475 @@
+TSimpleTable
+v7
+r0
+t293290430.924016
+cCheck dependencies
+cCpResource build/Debug-iphoneos/SimpleTable.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Info.plist SimpleTable-Info.plist
+cCompileXIB /Users/danielpoit/Documents/Apps/CashLog/MainWindow.xib
+cCompileXIB /Users/danielpoit/Documents/Apps/CashLog/SimpleTableViewController.xib
+cCompileXIB /Users/danielpoit/Documents/Apps/CashLog/NextView.xib
+cCopyPNGFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/icon.png icon.png
+cCopyPNGFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Default.png Default.png
+cCopyPlistFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Entitlements.plist Entitlements.plist
+cProcessPCH /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch.gch SimpleTable_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch.gch SimpleTable_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/main.o /Users/danielpoit/Documents/Apps/CashLog/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableAppDelegate.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableViewController.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/main.o /Users/danielpoit/Documents/Apps/CashLog/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableAppDelegate.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable normal armv6
+cCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableViewController.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable normal armv7
+cCreateUniversalBinary /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable normal "armv6 armv7"
+cGenerateDSYMFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app.dSYM /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable
+cProcessProductPackaging "/Users/danielpoit/Library/MobileDevice/Provisioning Profiles/2C90ABB5-53A5-48D3-BEE4-FF23B0BB35EC.mobileprovision" /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/embedded.mobileprovision
+cTouch /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent
+cCodeSign /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004B47D7B70000000000000110
+t1262999479
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F49B0
+t1253947923
+s6244784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501440
+t1253948879
+s5248064
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F550
+t1253954085
+s28570960
+
+N/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m
+c000000004B6EC39800000000000002B7
+t1265550232
+s695
+i"SimpleTableAppDelegate.h"
+i"SimpleTableViewController.h"
+
+N/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.h
+c000000004BBCC7D9000000000000034D
+t1270663129
+s845
+i<UIKit/UIKit.h>
+
+N/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m
+c000000004BBCD89200000000000032C2
+t1270667410
+s12994
+i"SimpleTableViewController.h"
+
+N/Users/danielpoit/Documents/Apps/CashLog/Default.png
+c000000004BBBA92400000000000244E1
+t1270589732
+s148705
+
+N/Users/danielpoit/Documents/Apps/CashLog/Entitlements.plist
+c000000004BBCEF9F00000000000000E1
+t1270673311
+s225
+
+N/Users/danielpoit/Documents/Apps/CashLog/MainWindow.xib
+c000000004B68C946000000000000247A
+t1265158470
+s9338
+
+N/Users/danielpoit/Documents/Apps/CashLog/NextView.xib
+c000000004B697C7E0000000000002389
+t1265204350
+s9097
+
+N/Users/danielpoit/Documents/Apps/CashLog/SimpleTableAppDelegate.h
+c000000004B8227D700000000000001F7
+t1266821079
+s503
+i<UIKit/UIKit.h>
+
+N/Users/danielpoit/Documents/Apps/CashLog/SimpleTableViewController.xib
+c000000004BC598550000000000009ED0
+t1271240789
+s40656
+
+N/Users/danielpoit/Documents/Apps/CashLog/SimpleTable_Prefix.pch
+c000000004BBBA9FF00000000000000BF
+t1270589951
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+t1271597630
+s510
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app.dSYM
+t1271597625
+s102
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Default.png
+t1270670357
+s165357
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Entitlements.plist
+t1270675385
+s62
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Info.plist
+t1271597616
+s751
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/MainWindow.nib
+t1270670355
+s1503
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/NextView.nib
+t1270670356
+s1829
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/PkgInfo
+t1271597616
+s8
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/ResourceRules.plist
+t1270670354
+s485
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable
+t1271597625
+s74588
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTableViewController.nib
+t1271597619
+s6328
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/embedded.mobileprovision
+t1270670359
+s7042
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/icon.png
+t1270670355
+s5057
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable
+t1271597625
+s33848
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable.LinkFileList
+c000000004BBCE41200000000000001AD
+t1270670354
+s429
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableAppDelegate.o
+t1271597623
+s41672
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableViewController.o
+t1271597623
+s64908
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/main.o
+t1271597623
+s6452
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable
+t1271597625
+s33628
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable.LinkFileList
+c000000004BCB0A3000000000000001AD
+t1271597616
+s429
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableAppDelegate.o
+t1271597623
+s41604
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableViewController.o
+t1271597623
+s63784
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/main.o
+t1271597623
+s6436
+
+N/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent
+t1271597626
+s376
+
+N/Users/danielpoit/Documents/Apps/CashLog/icon.png
+c000000004B82245100000000000011D1
+t1266820177
+s4561
+
+N/Users/danielpoit/Documents/Apps/CashLog/main.m
+c000000004B68C946000000000000016D
+t1265158470
+s365
+i<UIKit/UIKit.h>
+
+N/Users/danielpoit/Library/MobileDevice/Provisioning Profiles/2C90ABB5-53A5-48D3-BEE4-FF23B0BB35EC.mobileprovision
+c000000004B8221750000000000001B82
+t1266819445
+s7042
+
+N/var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch.gch
+t1271597622
+s8855736
+
+N/var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch.gch
+t1271597622
+s8388792
+
+NSimpleTable-Info.plist
+c000000004BBCEEEE0000000000000407
+t1270673134
+s1031
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293290415#293290416#0(0"0(0#1#0"28992373579448432#0"0#
+
+CCodeSign /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+s293290426.112034
+e293290430.923902
+r1
+xCodeSign
+x/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+lSLF07#2@45"CodeSign build/Debug-iphoneos/SimpleTable.app293290426#293290430#0(0"0(0#0#77"/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app4300739032#688"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Distribution: Daniel Poit" --resource-rules=/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/ResourceRules.plist --entitlements /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app0#
+
+CCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableAppDelegate.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293290423.067714
+e293290423.387803
+r1
+xCompileC
+xbuild/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableAppDelegate.o
+x/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m293290423#293290423#0(0"0(0#0#73"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m4300739032#1902"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv6 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -include /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch -c /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableAppDelegate.o0#
+
+CCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableViewController.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293290423.378275
+e293290423.705316
+r1
+xCompileC
+xbuild/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableViewController.o
+x/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController viewDidLoad]':
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:39: warning: incompatible Objective-C types initializing 'struct NSArray *', expected 'struct NSMutableArray *'
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:65: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController tableView:cellForRowAtIndexPath:]':
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:126: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+lSLF07#2@84"Compile /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m293290423#293290423#0(1040"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController viewDidLoad]':/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:39: warning: incompatible Objective-C types initializing 'struct NSArray *', expected 'struct NSMutableArray *'/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:65: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController tableView:cellForRowAtIndexPath:]':/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:126: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)3(22@98"Incompatible Objective-C types initializing 'struct NSArray *', expected 'struct NSMutableArray *'293290423#134#189#0(6@76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m292360210#39#0#39#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@197"'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)293290423#323#288#0(6@76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m292360210#65#0#65#0#33"'*' is deprecated (declared at *)0(22@182"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)293290423#766#274#0(6@76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m292360210#126#0#126#0#33"'*' is deprecated (declared at *)0(0#0#76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m4300739032#1908"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv6 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -include /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch -c /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTableViewController.o0#
+
+CCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/main.o /Users/danielpoit/Documents/Apps/CashLog/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293290423.066660
+e293290423.378172
+r1
+xCompileC
+xbuild/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/main.o
+x/Users/danielpoit/Documents/Apps/CashLog/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/danielpoit/Documents/Apps/CashLog/main.m293290423#293290423#0(0"0(0#0#47"/Users/danielpoit/Documents/Apps/CashLog/main.m4300739032#1858"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv6 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -include /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch -c /Users/danielpoit/Documents/Apps/CashLog/main.m -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableAppDelegate.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293290423.531570
+e293290423.780330
+r1
+xCompileC
+xbuild/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableAppDelegate.o
+x/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m293290423#293290423#0(0"0(0#0#73"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m4300739032#1902"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv7 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -include /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch -c /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableAppDelegate.m -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableAppDelegate.o0#
+
+CCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableViewController.o /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293290423.780443
+e293290423.991360
+r1
+xCompileC
+xbuild/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableViewController.o
+x/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController viewDidLoad]':
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:39: warning: incompatible Objective-C types initializing 'struct NSArray *', expected 'struct NSMutableArray *'
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:65: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController tableView:cellForRowAtIndexPath:]':
+o/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:126: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)
+lSLF07#2@84"Compile /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m293290423#293290424#0(1040"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController viewDidLoad]':/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:39: warning: incompatible Objective-C types initializing 'struct NSArray *', expected 'struct NSMutableArray *'/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:65: warning: 'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m: In function '-[SimpleTableViewController tableView:cellForRowAtIndexPath:]':/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m:126: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)3(22@98"Incompatible Objective-C types initializing 'struct NSArray *', expected 'struct NSMutableArray *'293290423#134#189#0(6@76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m292360210#39#0#39#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@197"'stringWithContentsOfFile:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:357)293290423#323#288#0(6@76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m292360210#65#0#65#0#33"'*' is deprecated (declared at *)0(22@182"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:200)293290423#766#274#0(6@76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m292360210#126#0#126#0#33"'*' is deprecated (declared at *)0(0#0#76"/Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m4300739032#1908"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv7 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -include /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch -c /Users/danielpoit/Documents/Apps/CashLog/Classes/SimpleTableViewController.m -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTableViewController.o0#
+
+CCompileC build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/main.o /Users/danielpoit/Documents/Apps/CashLog/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293290423.387908
+e293290423.531457
+r1
+xCompileC
+xbuild/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/main.o
+x/Users/danielpoit/Documents/Apps/CashLog/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/danielpoit/Documents/Apps/CashLog/main.m293290423#293290423#0(0"0(0#0#47"/Users/danielpoit/Documents/Apps/CashLog/main.m4300739032#1858"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv7 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -include /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch -c /Users/danielpoit/Documents/Apps/CashLog/main.m -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/danielpoit/Documents/Apps/CashLog/MainWindow.xib
+r0
+
+CCompileXIB /Users/danielpoit/Documents/Apps/CashLog/NextView.xib
+r0
+
+CCompileXIB /Users/danielpoit/Documents/Apps/CashLog/SimpleTableViewController.xib
+s293290416.477727
+e293290419.921196
+r1
+xCompileXIB
+x/Users/danielpoit/Documents/Apps/CashLog/SimpleTableViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@40"CompileXIB SimpleTableViewController.xib293290416#293290419#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#70"/Users/danielpoit/Documents/Apps/CashLog/SimpleTableViewController.xib4300739032#508"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTableViewController.nib /Users/danielpoit/Documents/Apps/CashLog/SimpleTableViewController.xib0#
+
+CCopyPNGFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Default.png Default.png
+r0
+
+CCopyPNGFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/icon.png icon.png
+r0
+
+CCopyPlistFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Entitlements.plist Entitlements.plist
+r0
+
+CCpResource build/Debug-iphoneos/SimpleTable.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable normal "armv6 armv7"
+s293290425.491337
+e293290425.627701
+r1
+xCreateUniversalBinary
+x/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/SimpleTable.app/SimpleTable normal "armv6 armv7"293290425#293290425#0(0"0(0#0#52"/Users/danielpoit/Documents/Apps/CashLog/armv6 armv73415821216344400384#566"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable -output /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable0#
+
+CGenerateDSYMFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app.dSYM /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable
+s293290425.627815
+e293290426.016020
+r1
+xGenerateDSYMFile
+x/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app.dSYM
+x/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/SimpleTable.app.dSYM build/Debug-iphoneos/SimpleTable.app/SimpleTable293290425#293290426#0(0"0(0#0#89"/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable4300739032#380"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/SimpleTable -o /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app.dSYM0#
+
+CLd /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable normal armv6
+s293290423.705526
+e293290425.491232
+r1
+xLd
+x/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable
+xnormal
+xarmv6
+lSLF07#2@139"Link /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable293290423#293290425#0(0"0(0#0#0"4300739032#907"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -filelist /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv6/SimpleTable0#
+
+CLd /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable normal armv7
+s293290423.991451
+e293290425.486205
+r1
+xLd
+x/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable
+xnormal
+xarmv7
+lSLF07#2@139"Link /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable293290423#293290425#0(0"0(0#0#0"4300739032#907"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -filelist /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/Objects-normal/armv7/SimpleTable0#
+
+CProcessInfoPlistFile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Info.plist SimpleTable-Info.plist
+s293290416.171196
+e293290416.477561
+r1
+xProcessInfoPlistFile
+x/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Info.plist
+xSimpleTable-Info.plist
+lSLF07#2@30"Process SimpleTable-Info.plist293290416#293290416#0(0"0(0#0#63"/Users/danielpoit/Documents/Apps/CashLog/SimpleTable-Info.plist32932993188560964#586"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleTable-Info.plist -genpkginfo /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/ResourceRules.plist -o /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/Info.plist0#
+
+CProcessPCH /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch.gch SimpleTable_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s293290419.934262
+e293290422.713196
+r1
+xProcessPCH
+x/var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch.gch
+xSimpleTable_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile SimpleTable_Prefix.pch293290419#293290422#0(0"0(0#0#63"/Users/danielpoit/Documents/Apps/CashLog/SimpleTable_Prefix.pch4300739032#1746"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv7 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -c /Users/danielpoit/Documents/Apps/CashLog/SimpleTable_Prefix.pch -o /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-amdizxfmdpoddafbwedlsvlndsaz/SimpleTable_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch.gch SimpleTable_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s293290419.921448
+e293290423.066551
+r1
+xProcessPCH
+x/var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch.gch
+xSimpleTable_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile SimpleTable_Prefix.pch293290419#293290423#0(0"0(0#0#63"/Users/danielpoit/Documents/Apps/CashLog/SimpleTable_Prefix.pch4300739032#1746"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-generated-files.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-own-target-headers.hmap -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-all-target-headers.hmap -iquote /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable-project-headers.hmap -F/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos -I/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/include -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources/armv6 -I/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/DerivedSources -c /Users/danielpoit/Documents/Apps/CashLog/SimpleTable_Prefix.pch -o /var/folders/H+/H+hlHn30GHa+NixY+muFdU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleTable_Prefix-ewvomcaezyqbdhbxvehykabfjmcj/SimpleTable_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/danielpoit/Library/MobileDevice/Provisioning Profiles/2C90ABB5-53A5-48D3-BEE4-FF23B0BB35EC.mobileprovision" /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent
+s293290426.076758
+e293290426.111964
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent293290426#293290426#0(0"0(0#0#119"/Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent4300739032#454"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/danielpoit/Documents/Apps/CashLog/build/SimpleTablePoit.build/Debug-iphoneos/SimpleTable.build/SimpleTable.xcent0#
+
+CTouch /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+s293290426.016224
+e293290426.076663
+r1
+xTouch
+x/Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app
+lSLF07#2@83"Touch /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app293290426#293290426#0(0"0(0#0#0"4300739032#272"    cd /Users/danielpoit/Documents/Apps/CashLog    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danielpoit/Documents/Apps/CashLog/build/Debug-iphoneos/SimpleTable.app0#
+
